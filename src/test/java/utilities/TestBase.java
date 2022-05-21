@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public abstract class TestBase {
     //we can return an abstract class this class ffor prevent to cerating object
-   protected WebDriver driver;
+   protected static WebDriver driver;
    @Before
     public void start(){
        WebDriverManager.chromedriver().setup();
@@ -20,7 +20,7 @@ public abstract class TestBase {
    }
     @After
     public void close(){
-       //driver.close();
+       driver.close();
 
     }
 }

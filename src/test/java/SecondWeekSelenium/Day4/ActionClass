@@ -13,3 +13,8 @@ Bunun icin 3 method kullaniriz.
 ■ keyDown ( ): Klavyede tuşa basma işlemi gerçekleştirir
 
 ■ keyUp ( ): Klavyede tuşu serbest bırakma işlemi gerçekleştirir
+System.out.println(point.getX() +" " + point.getY());
+        System.out.println(point.x + " " + point.y);
+         Thread.sleep(3000);
+         action.moveByOffset(point.x, point.y);
+         Point point=driver.findElement(By.xpath("//span[@id='Powerful_but_easy_to_misuse']")).getLocation();
