@@ -1,0 +1,51 @@
+Annotations
+
+❖ Java Annotationlar ile derleyiciye (Compiler) talimatlar verebiliriz.
+❖ Selenium’da kodlarimizi yazarken “@” işareti ile baslayan notasyonlar kullaniriz.
+
+❖ Annotation, bir veri hakkında bilgi barındıran veriyi sağlayan basit bir yapıdır. Bu sağladığı
+bilgiye de “metadata” denir.
+❖ Notasyonlar( Annotation) genellikle Java’da konfigürasyon amacıyla kullanılır. Kullanildigi
+bileşene ek özellikle katar. Bu bileşenler sınıf, metod, değişkenler, paket ya da parametreler
+olabilir. Bunların hepsinde notasyonları kullanabiliriz.
+En cok kullanilan Junit annotation’lari
+
+@Test
+@BeforeClass @AfterClass
+@Before , @After
+@Ignore
+
+@Test ve @Ignore
+❖ Junit ile Main Method kullanma donemini bitiriyoruz.
+❖ Junit Framework kullandigimizda yazdığımız test metodunun calismasi icin başına @Test
+notasyonu eklememiz yeterlidir.
+❖ @Test notasyonu eklemedigimiz metot test sırasında çalışıtırılmaz. Ancak cagrilirsa calisir.
+❖ Yazdığımız bazı test metotları henüz tamamlanmamış veya değişiklikleri uğrayabileceğinden
+dolayı test sırasında çalıştırılmasını istemiyorsak @Ignore notasyonu eklememiz yeterlidir.
+❖ @Ignore notasyonun tanımlı olduğu metotlar test sırasında çalıştırılmayacaktır. Ayrıca
+istenilirse @Ignore(“açıklama”) şeklinde yazılarak metodun neden test edilmesini
+istemediğimizide yazabiliriz.
+@Before ve @After
+❖ Before notasyonu, her test method’undan önce çalışır. Örneğin bir sayfa ile test yapiyorsak
+ve her testten once o sayfaya gitmemiz gerekiyorsa @before kullanabiliriz.
+@before notasyanunun kullanildigi method’a genelde setup( ) ismi verilir.
+❖ After notasyonu, her test method’undan sonra çalışmaktadır. Örneğin test sirasinda
+kullandigimiz sayfanin kapatilmasi gibi.
+@after notasyanunun kullanildigi metoda genelde teardown() ismi verilir
+
+Not : Test method’u ve Test farkli yapilardir.
+Test dedigimizde tek bir method veya icinde bircok class ve package barindiran bir yapi
+olabilir. Regression test, smoke test vb..
+Test method’u ise @Test notasyonu kullanilarak olusturulan ve bagimsiz olarak
+calistirabilecegimiz en kucuk test yapisidir
+@BeforeClass ve @AfterClass
+❖ BeforeClass notasyonu, bir class’daki tüm testlerden once yapılması gereken bir islem
+işlem varsa kullanılır (precondition).
+Örneğin test metotlarımız çalışmadan driver olusturup tum methodlarda kullanabilirim.
+
+❖ AfterClass notasyonu da, bir class’daki tüm testler tamamlandıktan sonra yapılması gereken
+işlemlerde kullanılır.
+Örneğin actigimiz sayfayi kapatmak veya elde ettigimiz test sonuclarini raporlamak gibi.
+
+❖ @BeforeClass ve @AfterClass notasyonları test sürecinde bir kere çalışırken, @Before ve
+@After notasyonları her test method’unun başında ve sonunda çalışmaktadır.

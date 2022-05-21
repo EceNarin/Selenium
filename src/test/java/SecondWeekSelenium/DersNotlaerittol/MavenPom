@@ -1,0 +1,38 @@
+Maven : build tool, proje yonetim aracidir.
+2. Maven’in yola cikis amaci proje gelistirmenin kolaylastirilmasi ve birlikte calismanin saglanmasidir.
+3. Selenium, browserlari otomasyon yapabilmemiz icin gerekli toollari calistiran bir suite’dir.
+4. Maven Java projelerin gelistirilmesi icin, ihtiyacimiz olan tum tool’lari projemize eklemek, update
+etmek, versiyonlarini degistirmek gibi islemleri kolayca yapmamizi saglayan bir build tool’dur.
+5. Maven bu islemleri nasil saglar ?
+Maven’in kalbi pom.xml’dir.
+pom.xml’e ekleyecegimiz dependency’ler ile istedigimiz her kutuphaneyi projemize kolaylikla
+ekleyebiliriz.
+projemiz icin kullanmak istedigimiz dependency’leri mvnrepository.com’dan bulabiliriz.
+Ilgili kutuphanenin hangi versiyonunu yuklememiz gerektigine karar vermek icin, en guncel, en cok
+kullanilan ve stable olan versiyonu buluyoruz.
+6. Maven bir framework degildir, sadece framework’u kolayca olusturmamizi saglayan bir tool’dur. Biz
+selenium dersleri boyunca 3 framework ile calisacagiz.
+- Junit - TestNG - Cucumber
+❖ Java ile en temel framework JUNit ile oluşturulabilir.
+
+❖ Developerlar da unit testleri calistirmak icin kullanirlar.
+
+❖ Biz testlerimizi yapmak icin JUnit'in ileri sürümü
+olduğundan TestNG framework oluşturup kullanacagiz.
+
+❖ Junit maven projesi uzerinde calistigindan
+https://mvnrepository.com/ sitesinden dependency’leri
+projemize ekleriz.
+
+❖ Test’lerimizi yaparken main method, if-else gibi java
+kod bloklarini kullanmak yerine Junit annotationlarini
+ve method’larine kullanabiliriz.
+
+❖ Son framework olarak kuracagimiz Cucumber framework’da da Junit kullanacagiz
+1. Index kullanarak selectByIndex();
+2.Deger kullanarak selectByValue();
+3.Gorunen degerini kullanarak selectByVisibleText();
+
+Istenirse getOptions(); methodu kullanilarak
+DropDown’daki tum elementler webelementlerden olusan
+bir listeye konabilir. List<WebElement>

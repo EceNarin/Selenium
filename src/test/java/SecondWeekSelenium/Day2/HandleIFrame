@@ -1,0 +1,16 @@
+driver.SwitchTo().frame--- we will leaern this today
+webception
+https://html.com/tags/iframe/ has ----> inside iframe html codes
+we have three ways for switch to another page /iframe
+1. by index
+driver.SwitchTo().frame(index of the frame);//index starts from zero
+2. by id or value
+driver.SwitchTo().frame("id of the frame");
+3.by WebElement
+driver.SwitchTo().frame(WebElement of the frame);
+
+// dismiss from iframe we have two command
+driver.SwitchTo().parentFrame();// going to one up level frame
+driver.SwitchTo().defaultContent();//going to upper level frame
+//iframe[@wmode='transparent']
+SecondWeekSelenium/Day2/IFrameTask.java

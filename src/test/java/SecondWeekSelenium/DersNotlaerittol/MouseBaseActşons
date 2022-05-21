@@ -1,0 +1,100 @@
+Action Class’ini her kullanmak istedigimizde yeniden obje olusturmamiz gerekmez.
+
+action objesi kullanilarak baslayan her komut, calismak icin perform( ) bekler.
+action objesi’ni bir kere olusturunca, istediginiz kadar action. ile baslayan komut yazar ve calismasi
+icin sonuna perform( ) yazariz.
+Action Class’indan kullanacagimiz method’lar ile
+klavyedeki tuslari kontrol edebiliriz.
+
+➢ Bunun icin 3 method kullaniriz.
+
+■ sendKeys ( ): Öğeye bir dizi anahtar gönderir
+
+■ keyDown ( ): Klavyede tuşa basma işlemi gerçekleştirir
+
+■ keyUp ( ): Klavyede tuşu serbest bırakma işlemi gerçekleştirir
+Quesitıon one
+
+1- Yeni bir class olusturalim: MouseActions1
+2- https://the-internet.herokuapp.com/context_menu sitesine gidelim
+3- Cizili alan uzerinde sag click yapalim
+4- Alert’te cikan yazinin “You selected a context menu” oldugunu
+test edelim.
+5- Tamam diyerek alert’i kapatalim
+6- Elemental Selenium linkine tiklayalim
+7- Acilan sayfada h1 taginda “Elemental Selenium” yazdigini test edelim
+Queestion 2
+Yeni bir class olusturalim: MouseActions2
+1- https://demoqa.com/droppable adresine gidelim
+2- “Drag me” butonunu tutup “Drop here” kutusunun ustune birakalim
+3- “Drop here” yazisi yerine “Dropped!” oldugunu test edin
+Questions 3
+Yeni bir class olusturalim: MouseActions3
+1- https://www.amazon.com/ adresine gidelim
+2- Sag ust bolumde bulunan “Account & Lists” menusunun acilmasi icin
+mouse’u bu menunun ustune getirelim
+3- “Create a list” butonuna basalim
+4- Acilan sayfada “Your Lists” yazisi oldugunu test edelim
+Quesitons
+Bir Class olusturalim KeyboardActions1
+2- https://www.amazon.com sayfasina gidelim
+
+3- Arama kutusuna actions method’larine kullanarak
+samsung A71 yazdirin ve Enter’a basarak arama
+yaptirin
+
+4- aramanin gerceklestigini test edin
+
+Questions
+Yeni bir class olusturalim: D15_MouseActions4
+1- https://www.facebook.com adresine gidelim
+2- Yeni hesap olustur butonuna basalim
+3- Ad, soyad, mail ve sifre kutularina deger yazalim ve kaydol tusuna basalim
+4- Kaydol tusuna basalim
+Questions
+Yeni Class olusturun ActionsClassHomeWork
+1- "http://webdriveruniversity.com/Actions" sayfasina gidin
+2- Hover over Me First" kutusunun ustune gelin
+3- Link 1" e tiklayin
+4- Popup mesajini yazdirin
+5- Popup'i tamam diyerek kapatin
+6- “Click and hold" kutusuna basili tutun
+7-“Click and hold" kutusunda cikan yaziyi yazdirin
+8- “Double click me" butonunu cift tiklayin
+Questions
+1- Bir Class olusturalim KeyboardActions2
+
+2- https://html.com/tags/iframe/ sayfasina gidelim
+
+3- video’yu gorecek kadar asagi inin
+
+4- videoyu izlemek icin Play tusuna basin
+
+5- videoyu calistirdiginizi test edin
+Questions
+Test01
+1- amazon gidin
+2- Arama kutusunun solundaki dropdown menuyu handle edip listesini ekrana yazdırın
+3- dropdown menude 40 eleman olduğunu doğrulayın
+
+Test02
+
+1- dropdown menuden elektronik bölümü seçin
+2- arama kutusuna iphone yazip aratin ve bulunan sonuç sayısını yazdırın
+3- sonuc sayisi bildiren yazinin iphone icerdigini test edin
+4- ikinci ürüne relative locater kullanarak tıklayin
+5- ürünün title'ni ve fiyatını variable’a assign edip ürünü sepete ekleyelim
+
+Test03
+
+1- yeni bir sekme açarak amazon anasayfaya gidin
+2-dropdown’dan bebek bölümüne secin
+3-bebek puset aratıp bulundan sonuç sayısını yazdırın
+4-sonuç yazsının puset içerdiğini test edin
+5-üçüncü ürüne relative locater kullanarak tıklayin
+6-title ve fiyat bilgilerini assign edelim ve ürünü sepete ekleyin
+
+Test 4
+
+1-sepetteki ürünlerle eklediğimiz ürünlerin aynı olduğunu isim ve fiyat olarak doğrulayın
+

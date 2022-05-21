@@ -1,0 +1,15 @@
+Selenium ve mouse'la yapabilecehimiz tum islemleri klavyeyle selenium aracaligiyla yapabiliriz
+Actions action=new Action(driver); sag tıklayıp actions class'ına gidip methodları inceleyebilriz
+//move to element ile o like gidiyruz
+action.doubleClick().perform();  //dont forget to put  .perform() method
+action.clickAndHold().perform();//webeementt uzerinde click ederek bizden komut bekler
+action.dragAndDrop().perform(); //surukleyirip bırakma
+action.movetoElement().perform();//hedef webleemtn ustune gider
+action.contextClick().perform();//mouse ile stedigimiz weblement'e sagtiklama yapar
+Bunun icin 3 method kullaniriz.
+
+■ sendKeys ( ): Öğeye bir dizi anahtar gönderir
+
+■ keyDown ( ): Klavyede tuşa basma işlemi gerçekleştirir
+
+■ keyUp ( ): Klavyede tuşu serbest bırakma işlemi gerçekleştirir

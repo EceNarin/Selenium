@@ -1,0 +1,41 @@
+Birden fazla pencereyle calişirken driver’a
+pencereler arasında gecis yaptirmamiz gerekir.
+
+● Pencereler arasında gecis yapmak icin window
+handle degerini kullaniriz.
+
+● window handle : Selenium WebDriver’in, WebDriver
+objesi başlatıldığında her pencereye verdigi unique
+alfanumerik kimlik degeridir.
+1 ) Icinde oldugumuz sayfanin window handle
+degerini alma
+driver.getWindowHandle();
+2 ) Pencereler arasında geçiş yapma(switch)
+driver.switchTo().window(sayfa1HandleDegeri);
+3 ) Yeni tab olusturup geçiş yapma(switch)
+driver.switchTo().newWindow(WindowType.TAB);
+4 ) Yeni window olusturup geçiş yapma(switch)
+driver.switchTo().newWindow(WindowType.WINDOW);
+Acik olan pencerelerin window handle degerlerini
+alma
+
+driver.getWindowHandles();
+
+Method’un sonundaki “s” den anlasilacagi uzere birden
+fazla window handle return eder
+
+Birden fazla window handle degeri oldugu icin collection
+return etmelidir, method Set return edecek sekilde
+yazilmistir.
+
+Set’de tum window handle degerleri olacaktir. Biz icinde oldugumuz ilk sayfanin handle degerini
+kaydedersek, set’te olan 2 window handle degerinden, ilk sayfa handle degerine esit olmayan ikinci
+handle degeridir.
+● Tests package’inda yeni bir class olusturun: WindowHandle2
+● https://the-internet.herokuapp.com/windows adresine gidin.
+● Sayfadaki textin “Opening a new window” olduğunu doğrulayın.
+● Sayfa başlığının(title) “The Internet” olduğunu doğrulayın.
+● Click Here butonuna basın.
+● Acilan yeni pencerenin sayfa başlığının (title) “New Window” oldugunu dogrulayin.
+● Sayfadaki textin “New Window” olduğunu doğrulayın.
+● Bir önceki pencereye geri döndükten sonra sayfa başlığının “The Internet” olduğunu

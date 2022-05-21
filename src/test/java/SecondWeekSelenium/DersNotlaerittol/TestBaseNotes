@@ -1,0 +1,26 @@
+●TestBase, testlerden önce ve sonra tekrar tekrar
+kullandığımız kodları içermektedir.
+●İçerisindeki metodları kullanabilmemiz icin extends
+yapıyoruz. Bu sayede test class’ımızda sadece test
+case’ler bulunmaktadır.
+
+● Utilities package’da TestBase’i oluşturuyoruz.
+○ setUp method
+○ reports (Raporlar)
+○ tearDown method
+●TestBase class’i abstract yapabiliriz (Olmasada
+olabilir) , extends yaparak kullanabiliriz. Ve bu
+class’da object create edemeyiz.
+● olusturdugumuz driver’in farkli package’lardan kullanabilmek icin PROTECTED yapariz
+TestNg’de Actions class’ini kullanarak mouse ve klavye
+ile yapabilecegimiz tum islevleri gerceklestirebiliriz.
+
+➢ Actions Class birçok kullanışlı mouse ve klavye
+işlevine sahiptir.
+
+➢ Çift tıklama (double click), sürükleme ve bırakma(drag
+and drop), mouse’u hareket ettirme (mouse actions)
+gibi karmaşık mouse eylemleri icin
+veya Keyboard ile yapabilecegimiz pageUp, pageDown,
+shift, arrowDown gibi islemleri Actions classindan object
+ureterek driver ile yapabiliriz.
