@@ -8,11 +8,25 @@ action.movetoElement().perform();//hedef webleemtn ustune gider
 action.contextClick().perform();//mouse ile stedigimiz weblement'e sagtiklama yapar
 Bunun icin 3 method kullaniriz.
 
+
 ■ sendKeys ( ): Öğeye bir dizi anahtar gönderir
 
 ■ keyDown ( ): Klavyede tuşa basma işlemi gerçekleştirir
 
 ■ keyUp ( ): Klavyede tuşu serbest bırakma işlemi gerçekleştirir
+
+
+
+
+
+
+
+
+
+
+
+
+
 System.out.println(point.getX() +" " + point.getY());
         System.out.println(point.x + " " + point.y);
          Thread.sleep(3000);

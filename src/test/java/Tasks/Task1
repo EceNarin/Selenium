@@ -1,0 +1,65 @@
+1.https://the-internet.herokuapp.com/ sitesine git
+2.drag and drop'a mouse action ile sag tiklatip yeni sekmede acalim
+3.drag and drop islemini yap mouse action ile
+4. degisen degerleri test et
+5.Elemental Selenium ile yeni acilan sekmenin windowhandle degerini yaz
+6.ponsored by Sauce Labs'a tikla
+7.fareyle contact'in üzerine gelip contact support'u tikla
+8.ilk sayfaya geri gel
+
+
+
+
+1-https://www.rediff.com/ istesine git
+2.en alt sayfaya gelip bussines'i tikla
+3.geri gel
+4.div conteiner'lar icinden tab yardimiyla searchbox kismina gelip dolar kurunu arat(yeni sekmeden acilacak handle degerini kaydet)
+5.kur iframe'i icinde dolar'in guncel kurunu arat
+6.cıkan sonucu yazidr-
+7.diger iframe gecip sag altta bulunan google advertisemnt'a gidip cikan ürünün title ve degerini yazdir
+8.reddif sitesine geri gel
+
+
+1.https://demoqa.com/browser-windows sitesine gidip
+task1
+2.Alert,frame windows üzerinde mouse action ile durup
+a) bowsers'a tikla
+1-new tab icin This is a sample page test et
+2-new window icin This is a sample page test et
+3.new window message yazdir ve karakter saisini bul
+task2
+b)allerts
+task3
+c)frame
+task4
+d)nested frame  icindeki gorevleri tek tek task icinde yap
+
+https://automationexercise.com/
+mouse action ile yap
+TASK 1
+
+1. rediff.com'a git.
+2. title'ın "Rediff" içerdiğini kontrol et.
+3. NSE'nin güncel puanını konsola yazdır. Düne göre yükselmiş mi diye kontrol et.
+4. Haberler menüsünde HOME haricinde 8 eleman olduğunu doğrula.
+5. Sayfayı aşağı kaydır.
+6. Kare şeklindeki haberlerden ilk VIDEOS başlıklı olanı yeni sekmede aç.
+7. Videonun oynatıldığını doğrula.
+8. Ana sekmeye dön.
+9. Haber menüsünden COVID-19'a tıkla.
+10. Açılan sayfadaki haberlerin üzerinde başlık olarak "THE WAR AGAINST CORONAVIRUS" yazdığını doğrula.
+
+TASK 2
+
+1. rediff.com'a git.
+2. Logonun görünür olduğunu doğrula.
+3. Top menüden Money'e tıkla.
+4. MARKETS başlığı altında NSE sekmesine tıkla. (BSE aktif.)
+5. GAINERS içinde birincinin kazancının %5'ten fazla olduğunu kontrol et.
+6. SECTORAL INDICES altında METAL'in puanını konsola yazdır. Düne göre kazançlı mı diye kontrol et.
+7. METAL'e tıkla.
+8. Açılan sayfada grafik üzerindeki başlığın "companies" içerdiğini kontrol et.
+9. Select Indice açılır menüsündeki option sayısının 10'dan büyük olduğunu kontrol et. Adedini konsola yazdır.
+10. Option'lardan BSE 100'ü seç.
+11. Açılan sayfada BSE 100 puanını konsola yazdır. Düne göre kazançlı olduğunu kontrol et.
+

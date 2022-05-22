@@ -1,0 +1,10 @@
+Whats faker libraries
+when testing hard to create some fields so we prefer to use this libraries for filling to spaces
+go to maven reprository web site
+copy to faker dependcies
+and past on maven pom xml and refresh to page for update
+creating faker in class
+      Faker faker=new Faker();
+      Sample
+   String fakeMail=faker.internet().emailAddress();
+      actions.click(searchBox).sendKeys(faker.name().firstName());

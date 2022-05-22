@@ -1,0 +1,8 @@
+we cant test window and mobile via selenium
+but we can via Java...... if there is any file either or not we can test with java
+System.getProperty("user.dir");  ----->user.dir= file.path
+System.getProperty("user.home"); ----->user.home=giving user path
+Files.exists(Paths.get(filePath)); ----->if there is file or not
+
+
+Assert.assertTrue(Files.exists(Paths.get("C:\\Users\\himer\\IdeaProjects\\NewProjectJUnit\\src\\test\\java\\SecondWeekSelenium\\Day1\\DropDownSample.java")));

@@ -16,9 +16,11 @@ public class TestBase1 extends TestBase {
         //amazonda  account meunusunden create a list'e click yapacagiz
         Actions action=new Actions(driver);
         WebElement account=driver.findElement(By.xpath("//a[@id='nav-link-accountList']"));
+        Thread.sleep(3000);
         action.moveToElement(account).perform();//hedef yere gidiyoruz
+        Thread.sleep(3000);
         //create list'i locate edip click ile tikliyoruz
         driver.findElement(By.xpath("//*[text()='Create a List']")).click();
-        Thread.sleep(3000);
+
     }
 }
