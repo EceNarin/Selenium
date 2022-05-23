@@ -33,10 +33,10 @@ task3
 c)frame
 task4
 d)nested frame  icindeki gorevleri tek tek task icinde yap
-
+4
 https://automationexercise.com/
 mouse action ile yap
-TASK 1
+TASK 5
 
 1. rediff.com'a git.
 2. title'ın "Rediff" içerdiğini kontrol et.
@@ -49,7 +49,7 @@ TASK 1
 9. Haber menüsünden COVID-19'a tıkla.
 10. Açılan sayfadaki haberlerin üzerinde başlık olarak "THE WAR AGAINST CORONAVIRUS" yazdığını doğrula.
 
-TASK 2
+TASK 6
 
 1. rediff.com'a git.
 2. Logonun görünür olduğunu doğrula.
