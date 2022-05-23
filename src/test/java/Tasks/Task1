@@ -37,6 +37,15 @@ d)nested frame  icindeki gorevleri tek tek task icinde yap
 https://automationexercise.com/
 mouse action ile yap
 TASK 5
+       // https://automationexercise.com/
+       // use mouse action ve fakeframe
+       //click to sign in button
+       //click enter username email
+       //String fakeMail=action.click(driver.findElement(By.xpath("(//input[@type='email'])[1]"))).sendKeys(fake.internet().emailAddress()).;
+       //System.out.println(fakeMail);
+       //action.click(driver.findElement(By.xpath("(//input[@type='email'])[1]"))).sendKeys(fake.internet().emailAddress()).sendKeys(Keys.TAB).click().perform();
+       //driver.findElement(By.xpath("(//input[@type='submit'])[1]")).click();
+       //fill in the forms
 
 1. rediff.com'a git.
 2. title'ın "Rediff" içerdiğini kontrol et.
