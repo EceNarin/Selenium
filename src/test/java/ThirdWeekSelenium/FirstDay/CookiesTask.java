@@ -28,6 +28,7 @@ public class CookiesTask extends TestBase {
         Assert.assertTrue(!allCookiess.contains(driver.manage().getCookieNamed("skin")));
         //8- tum cookie’leri silin ve silindigini test edin
         driver.manage().deleteAllCookies();
+
         Assert.assertTrue(driver.manage().getCookies().size()==0);
     }
 }
