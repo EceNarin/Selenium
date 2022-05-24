@@ -1,3 +1,4 @@
+bitti
 1.https://the-internet.herokuapp.com/ sitesine git
 2.drag and drop'a mouse action ile sag tiklatip yeni sekmede acalim
 3.drag and drop islemini yap mouse action ile
@@ -9,7 +10,7 @@
 
 
 
-
+bitti
 1-https://www.rediff.com/ istesine git
 2.en alt sayfaya gelip bussines'i tikla
 3.geri gel
@@ -36,7 +37,7 @@ d)nested frame  icindeki gorevleri tek tek task icinde yap
 4
 https://automationexercise.com/
 mouse action ile yap
-TASK 5
+TASK 5 bitti
        // https://automationexercise.com/
        // use mouse action ve fakeframe
        //click to sign in button
@@ -46,7 +47,7 @@ TASK 5
        //action.click(driver.findElement(By.xpath("(//input[@type='email'])[1]"))).sendKeys(fake.internet().emailAddress()).sendKeys(Keys.TAB).click().perform();
        //driver.findElement(By.xpath("(//input[@type='submit'])[1]")).click();
        //fill in the forms
-
+Bitti
 1. rediff.com'a git.
 2. title'ın "Rediff" içerdiğini kontrol et.
 3. NSE'nin güncel puanını konsola yazdır. Düne göre yükselmiş mi diye kontrol et.
@@ -58,7 +59,7 @@ TASK 5
 9. Haber menüsünden COVID-19'a tıkla.
 10. Açılan sayfadaki haberlerin üzerinde başlık olarak "THE WAR AGAINST CORONAVIRUS" yazdığını doğrula.
 
-TASK 6
+TASK 6 Bitti
 
 1. rediff.com'a git.
 2. Logonun görünür olduğunu doğrula.
