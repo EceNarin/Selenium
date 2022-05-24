@@ -1,4 +1,4 @@
-package ThirdWeekSelenium;
+package ThirdWeekSelenium.FirstDay;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
