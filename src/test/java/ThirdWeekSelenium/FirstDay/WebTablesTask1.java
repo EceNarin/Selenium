@@ -32,6 +32,6 @@ public class WebTablesTask1 extends TestBase {
         //○ Table body’sinde bulunan satirlari(rows) konsolda yazdırın.
         driver.findElements(By.tagName("th")).stream().forEach(t-> System.out.println("All Rows are Head : " + t.getText()));
         //○ 4.satirdaki(row) elementleri konsolda yazdırın.
-        driver.findElements(By.tagName("th")).stream().forEach(t-> System.err.println("All Rows are : " + t ));
+        driver.findElements(By.xpath("//table//tr[4]")).stream().forEach(t-> System.err.println("All Rows are : " + t.getText() ));
     }
 }

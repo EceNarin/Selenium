@@ -49,7 +49,11 @@ public class WebTablesTask2 extends TestBase {
         driver.findElements(By.xpath("//table//tr[4]//td")).stream().forEach(t-> System.out.println(t));
         //● printCells( ) metodu oluşturun //td
         printCells();
-
+        printData(3,3);
+    }
+    public void printData(int x,int y){
+        System.out.println("=====================================");
+        driver.findElements(By.xpath("//table//tr["+x+"]//td["+y+"]")).stream().forEach(t-> System.out.println(t.getText()));
     }
 
     private void printCells(){

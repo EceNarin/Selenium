@@ -28,5 +28,10 @@ public class WebTablesTask3 extends TestBase {
 
     public void printData(int x,int y){
         driver.findElements(By.xpath("//table//tr[x]//td[y]")).stream().forEach(t-> System.out.println(t.getText()));
+        String a="a";
+        String line=a.concat("-");
+        System.out.println(a.length() + a);
+        System.out.println(line.length() + line);
+
     }
 }

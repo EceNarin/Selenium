@@ -4,4 +4,5 @@ cases will close
 explicitly wait---> waiting for specific some codes which are taking long time  after this codes invoke
 implicitly chronometer working again
 we are usingn expectedConditions class
+ WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(12));
 WebElement x=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));

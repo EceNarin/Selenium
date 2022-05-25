@@ -34,7 +34,6 @@ public class WebTablesTask4 extends TestBase {
         findRowAndColumn();
         //girdigimde bana datayi yazdirsin
     }
-
     private void findRowAndColumn() {
         System.out.println("Column Size: " +driver.findElements(By.xpath("//div[@role=\"columnheader\"]")).size());
         System.out.println("All row size" +driver.findElements(By.xpath("//div[@role=\"rowgroup\"]")).size());

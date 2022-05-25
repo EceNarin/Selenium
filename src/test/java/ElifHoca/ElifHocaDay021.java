@@ -10,7 +10,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-public class ElifHocaDay021 {
+public class
+     ElifHocaDay021 {
    WebDriver driver;
     private WebDriver.Options manage;
 

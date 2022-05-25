@@ -16,6 +16,7 @@ public class CookiesTask extends TestBase {
         driver.manage().getCookies().stream().forEach(t-> System.out.println(t +" - "));
         //3- Sayfadaki cookies sayisinin 5’den buyuk oldugunu test edin
         Set<Cookie> allCookiess=driver.manage().getCookies();
+        System.out.println(allCookiess.size());
         Assert.assertTrue(allCookiess.size()>5);
         //4- ismi i18n-prefs olan cookie degerinin USD oldugunu test edin
         Assert.assertTrue(driver.manage().getCookieNamed("i18n-prefs").getValue().equals("USD"));
