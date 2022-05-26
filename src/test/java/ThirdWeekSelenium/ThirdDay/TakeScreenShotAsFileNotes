@@ -1,0 +1,41 @@
+    Selenium 3 ile tum sayfanin fotografini alabiliyorduk, Selenium 4 ile gelen guzel ozelliklerden bir tanesi de
+    istedigimiz WebElement’in fotografini almamiza imkan tanimasi
+    1.Adim : Bir TakeScreenhot objesi olusturup driver’imizi TakeScreenhot’a cast yapalim
+
+                      TakesScreenshot ts= (TakesScreenshot) driver; //butun sayfanin secreenshot'u icin kullanılır specific bolge icin
+                      //locate edilmis webelementi.getScreenShotAs() yapariz
+
+    2.Adim : kaydettigimiz ekran goruntusunu projede istedigimiz yere kaydedebilmek icin path ile yeni bir File olusturalim
+                              TakesScreenshot ts = (TakesScreenshot) driver;
+                              LocalDateTime date=LocalDateTime.now();
+                              DateTimeFormatter dtf= DateTimeFormatter.ofPattern("YYMMddHHmmss");
+                              String tarih = date.format(dtf);
+
+                     File    file= new File("target/ScreeShoot/AllPages.jpg");
+
+    3.Adim : Takescreenshot objesini kullanarak getScreenshotAs( ) methodunu calistiralim ve gelen resmi gecici bir file’a assign edelim
+
+                        File temp=ts.getScreenshotAs(OutputType.FILE);
+
+    4.Adim : Kaydettigimiz goruntuyu, saklamak istedigimiz dosyaya kopyalayalim
+
+                        FileUtils.copyFile(temp,file);
+
+                     SECOND PART : HOW TO SAVE WEB BROWSER'S ELEMENT OR PAGE
+    1.Adim : Webelementi locate edelim
+
+                    WebElement we=driver.FindElement(By.Xpath("hkhhkkhkhh");
+
+    2.Adim : kaydettigimiz ekran goruntusunu projede istedigimiz yere  kaydedebilmek icin path ile yeni bir File olusturalim
+
+                   //  Note: same as same process like 9. row
+                   File    file= new File("target/ScreeShoot/AllPages.jpg");
+
+    3.Adim : Webelement uzerinden getScreenshotAs( ) methodunu calistiralim ve gelen resmi olusturdugumuz gecici file’a assign edelim
+
+                   File  temp1=we.getScreenshotAs(OutputType.FILE); // same as like 13. row)
+
+    4.Adim : Gecici resmi, saklamak istedigimiz dosyaya kopyalayalim
+
+                        FileUtils.copyFile(temp1,file); // same as same like 17. row
+

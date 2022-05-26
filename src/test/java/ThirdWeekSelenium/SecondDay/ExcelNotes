@@ -1,0 +1,93 @@
+Excel icin daha once inceledigimiz Web Table yapisina
+benzer bir yapi vardir.
+➢ Excel’de bir hucredeki bilgiye ulasmak icin
+dosya/sayfa/satir/sutun sirasiyla ilerlemeliyiz
+➢ Excel ile ilgili otomasyonda web table’da oldugu gibi sutun
+yapisi yoktur, ihtiyac duyarsak kodla sutunu elde edebiliriz
+ancak bir dataya ulasmak icin sutun kullanamayiz
+Workbook excel dosyamiz
+Sheet Her açık excel sekmesi (Sheet1, Sheet2, etc)
+Row(satir) Java, yalnızca içeride veri varsa satırları sayar.
+Default olarak, Java perspektifinden satır sayısı 0'dır
+Cells (hucre) Java her satıra bakar ve yalnızca hücrede
+veri varsa hücre sayısını sayar.
+
+Apache POI
+
+➢ Apache POI, microsoft ofis dokumanlarina erişmek için kullanılan Java API'idir.
+➢ Poi.apache.com sayfasindan official dokumanlar incelenebilir.
+➢ Excel kullanmak icin;
+ 1   String filePath="src/resources/ulkeler.xlsx";
+ 2   FileInputStream fileInp=new FileInputStream(filePath);
+ 3   Workbook  workbook= WorkbookFactory.create(fileInp);
+ 4   Sheet sheet=workbook.getSheet("Sayfa1");
+ 5   Row row=sheet.getRow(4);
+ 6   Cell cell=row.getCell(3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi</artifactId>
+<version>4.1.2</version>
+</dependency>
+
+
+1. https://www.n11.com/ adresine gidilerek headerdan “Mağazalar/Mağazaları Gör”
+seçilir.
+2. Tüm Mağazalar butonuna tıklanır. A harfindeki tüm mağazalar bir excel, csv veya
+txt dosyasına yazdırılır.
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.17.1</version>
+</dependency>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

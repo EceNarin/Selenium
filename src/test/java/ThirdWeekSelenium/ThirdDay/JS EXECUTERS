@@ -1,0 +1,35 @@
+            Js Executors
+
+            Selenium ile web elementlerinin kontrollerini sağlarken selenium komutları yetersiz kalabilir veya
+            sorunlarla karşılaşabiliriz.
+
+
+            Bu durumlarda alternatif olarak üstesinden
+            gelmek için JavascriptExecutor class’ini dahil
+            edebiliriz.
+
+
+            JavaScript HTML kodlara direk erişip yönetebilen bir script dili olduğundan bize çok fazla
+            kolaylık sağlayabilir.
+
+
+            1.Adim : JavascriptExecutor kullanmak icin ilk adim olarak driver’imizi JavascriptExecutor’a cast edelim
+
+                     JavascriptExecutor js=(JavascriptExecutor)driver;
+
+            2.Adim : Kullanacagimiz WebElement’I locate edelim
+
+                    WebElement we=driver.findElemet(By.xpatht("");
+
+            3.Adim : Js driver ile executeScript method’unu calistiralim,
+            icine parameter olarak ilgili script ve webelemnt’I yazalim
+
+                        js.executeScript("jgjgjg",we);
+                        ornegi asagida
+
+            Ornegin Sell elementine click yapmak icin
+
+                        js.executeScript("arguments[0].click()",we);
+
+            scroll icin
+                       js.executeScript("arguments[0].scrollIntoView(true)",we);

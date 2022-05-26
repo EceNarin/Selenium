@@ -1,0 +1,16 @@
+
+
+                            HOW EXCEL WRITE TO CURRENT EXCEL SHEET
+                 1- AGAIN CREATE A FILE PATH WHICH IS DATA TYPE AS STRING TAKE PATH CLICK TO RIGHT AN GET AS PATH
+
+                            String filePath="src/resources/ulkeler.xlsx";
+
+                 2- CREATE AN OBJECT FROM FILEINPUTSTREAMCLASS AND PUT THIS FILE PATH WHICH WAS NAME IS "FILEPATH"
+                     AND PUT IN FILEINPUTSTREAM CLASS'S CONSTRUCTORS' PARAMETER
+
+                            FileInputStream fis=new FileInputStream(filePath);
+
+                 3-  CREATE AND WORKBOOK VARIABLE BY WORKBOOKFACTORY.CREATE() WHICH IS DATAY TYPE WAS WORKBOOK AND
+                     AND PUT THIS "FIS" OBJECTS' WHICH WAS DATA TYPE WAS FILEINPUTSTREAM
+
+                            Workbook workbook= WorkbookFactory.create(fis);
