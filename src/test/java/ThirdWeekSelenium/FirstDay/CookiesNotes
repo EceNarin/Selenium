@@ -1,22 +1,24 @@
-Birkaç farklılıkla, siber dünyadaki çerezlerin oturum
-çerezi ve kalıcı çerez olmak üzere iki çeşidi vardır.
 
-Oturum çerezleri yalnızca bir web sitesinde gezinirken
-kullanılır. Bunlar rastgele erişimli bellekte saklanır ve
-hiçbir zaman sabit sürücüye yazılmaz. Oturum sona
-erdiğinde oturum çerezleri otomatik olarak silinir.
 
-Kalıcı çerezler bir bilgisayarda sonsuza kadar kalır ancak
-birçoğunun bir son kullanma tarihi olup bu tarihe
-gelindiğinde otomatik olarak kaldırılırlar.
-Üçüncü taraf çerezler daha sıkıntılıdır. Bunlar, genellikle
-kullanıcıların halihazırda gezindiği web sayfalarındaki
-reklamlarla bağlantılı olduklarından bu sayfalardan farklı
-web siteleri tarafından oluşturulur.
+                Birkaç farklılıkla, siber dünyadaki çerezlerin oturum
+                çerezi ve kalıcı çerez olmak üzere iki çeşidi vardır.
 
-Driver.manage( ). method’u ile cookie’leri
-- listeleyebilir
-- Isim ile cagirabilir
-- Yeni cookie ekleyebilir
-- Var olanlari ismi silebilir
-- Var olan tum cookie’leri silebiliriz
+                Oturum çerezleri yalnızca bir web sitesinde gezinirken
+                kullanılır. Bunlar rastgele erişimli bellekte saklanır ve
+                hiçbir zaman sabit sürücüye yazılmaz. Oturum sona
+                erdiğinde oturum çerezleri otomatik olarak silinir.
+
+                Kalıcı çerezler bir bilgisayarda sonsuza kadar kalır ancak
+                birçoğunun bir son kullanma tarihi olup bu tarihe
+                gelindiğinde otomatik olarak kaldırılırlar.
+                Üçüncü taraf çerezler daha sıkıntılıdır. Bunlar, genellikle
+                kullanıcıların halihazırda gezindiği web sayfalarındaki
+                reklamlarla bağlantılı olduklarından bu sayfalardan farklı
+                web siteleri tarafından oluşturulur.
+
+                Driver.manage( ). method’u ile cookie’leri
+                - listeleyebilir
+                - Isim ile cagirabilir
+                - Yeni cookie ekleyebilir
+                - Var olanlari ismi silebilir
+                - Var olan tum cookie’leri silebiliriz

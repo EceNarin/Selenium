@@ -24,7 +24,7 @@
             3.Adim : Js driver ile executeScript method’unu calistiralim,
             icine parameter olarak ilgili script ve webelemnt’I yazalim
 
-                        js.executeScript("jgjgjg",we);
+                        js.executeScript("arguments[0].click()",we);
                         ornegi asagida
 
             Ornegin Sell elementine click yapmak icin

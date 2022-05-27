@@ -1,5 +1,6 @@
 package SecondWeekSelenium.Day4;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -15,7 +16,7 @@ public class KeyWordBaseActions extends TestBase {
         driver.get("https://html.com/tags/iframe/");
         //3- video’yu gorecek kadar asagi inin
         Point point=driver.findElement(By.xpath("//span[@id='Powerful_but_easy_to_misuse']")).getLocation();
-         Actions action=new Actions(driver);
+        Actions action=new Actions(driver);
         Thread.sleep(3000);
         action.sendKeys(Keys.PAGE_DOWN).build().perform();
         Thread.sleep(3000);
@@ -24,5 +25,6 @@ public class KeyWordBaseActions extends TestBase {
         driver.switchTo().frame(iframe);
         driver.findElement(By.xpath("//*[@id=\"movie_player\"]")).click();
         //5- videoyu calistirdiginizi test edin
+        Assert.assertTrue(driver.findElement(By.xpath("//a[@class=\"ytp-youtube-button ytp-button yt-uix-sessionlink\"]")).isDisplayed());
     }
 }

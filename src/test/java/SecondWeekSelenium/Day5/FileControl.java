@@ -15,9 +15,10 @@ public class FileControl {
         System.out.println(System.getProperty("user.home")); //C:\Users\himer
         //get to us pc specific place
         String filePathh=System.getProperty("user.home") + "\\Masaüstü\\jyjyjy.txt";
-        System.out.println(System.getProperty("user.home"  +"\\IdeaProjects\\NewProjectJUnit\\src\\test\\java\\SecondWeekSelenium\\Day1\\DropDownSample.java"));
+        System.out.println(System.getProperty("user.home")  +"\\IdeaProjects\\NewProjectJUnit\\src\\test\\java\\SecondWeekSelenium\\Day1\\DropDownSample.java");
         System.out.println(System.getProperty("user.home") + "\\Masaüstü\\kendim");
         System.out.println(filePathh);
+        Assert.assertTrue(Files.exists(Paths.get("src/resources/ulkeler.xlsx")));
         Assert.assertTrue(Files.exists(Paths.get("C:\\Users\\himer\\OneDrive\\Masaüstü\\ece")));
         Assert.assertTrue(Files.exists(Paths.get("C:\\Users\\himer\\IdeaProjects\\NewProjectJUnit\\src\\test\\java\\SecondWeekSelenium\\Day1\\DropDownSample.java")));
         System.out.println(Files.exists(Paths.get("C:\\Users\\himer\\IdeaProjects\\NewProjectJUnit\\src\\test\\java\\SecondWeekSelenium\\Day1\\DropDownSample.java")));

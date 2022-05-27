@@ -14,7 +14,7 @@ public class FilesUpload extends TestBase {
         //click to chooseFile button
         WebElement selectFile=driver.findElement(By.xpath("//input[@id='file-upload']"));
         //sendKeys()
-        String uploadFile=System.getProperty("user.home") +"\\Downloads\\dummy.txt";
+        String uploadFile="D:\\Downloads\\dummy.txt";
         selectFile.sendKeys(uploadFile);
         driver.findElement(By.xpath("//input[@class='button']")).click();
         //File Uploaded! if is displayed

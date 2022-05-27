@@ -45,7 +45,7 @@ public class DropDownSample {
         ddList.toString();
         ddList.stream().forEach(t-> System.out.print(t.getText() +","));
         int ddActualSize= ddList.size();
-        int expectedSize=4;
+        int expectedSize=3;
         Assert.assertEquals(expectedSize,ddActualSize);
         if(expectedSize==4){
             System.out.println("TRUE");

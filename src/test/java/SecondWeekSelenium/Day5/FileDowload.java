@@ -16,10 +16,10 @@ public class FileDowload extends TestBase {
         //code.txt dosyasini indirelim
         driver.findElement(By.xpath("//a[@href='download/dummy.txt']")).click();
         //dosyasinin basariyla indirilip indirilmedigini test edelim   "C:\Users\himer\Downloads\dummy.txt"
-        String filePaths=System.getProperty("user.home") +"\\Downloads\\dummy.txt";
-        boolean ifFileExist= Files.exists(Paths.get("C:\\Users\\himer\\Downloads\\dummy.txt"));
-        System.out.println(ifFileExist);
+        String filePaths="D:\\Downloads\\dummy.txt";
+        boolean ifFileExist= Files.exists(Paths.get(filePaths));
         System.out.println(Files.exists(Paths.get(filePaths)));
         Assert.assertTrue(Files.exists(Paths.get(filePaths)));
     }
 }
+//"D:\Downloads\dummy.txt"  "D:\Downloads\dummy.txt"   "D:\Downloads\dummy.txt" "C:\\Users\\himer\\Downloads\\dummy.txt"

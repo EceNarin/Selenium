@@ -1,25 +1,27 @@
-Bir Web sayfasinda webelementleri duzenlemek icin HTML tablo oluşturabiliriz
-HTML tablo farkli sekillerde olusturulabilir ama genellikle <table>
 
-, <theader>
-,
-<tbody>
 
-, <tr>, <th> ve <td>
+            Bir Web sayfasinda webelementleri duzenlemek icin HTML tablo oluşturabiliriz
+            HTML tablo farkli sekillerde olusturulabilir ama genellikle <table>
 
-attribute’leri kullanilir.
-<table>  ===>>>>table
-<thead>  ===>>>>header
-<tr> ===>>>>table rows
-<th> </th> ===>>>>table header dat
-</tr>
-</thead>
-<tbody> ===>>>>table body
-<tr> ===>>>>table row
-<td> </td> ===>>>>table data-cell
-</tr>
-</tbody>
-</table>
-https://www.hotelmycamp.com
-bu siteye girilecek gerci en altta ya da sistenin herhangi yerinde html kodlariyla table tag'i gorursek tablo oldugunun
-gostergesi olacaktir
+            , <theader>
+            ,
+            <tbody>
+
+            , <tr>, <th> ve <td>
+
+            attribute’leri kullanilir.
+            <table>  ===>>>>table
+            <thead>  ===>>>>header
+            <tr> ===>>>>table rows
+            <th> </th> ===>>>>table header dat
+            </tr>
+            </thead>
+            <tbody> ===>>>>table body
+            <tr> ===>>>>table row
+            <td> </td> ===>>>>table data-cell
+            </tr>
+            </tbody>
+            </table>
+            https://www.hotelmycamp.com
+            bu siteye girilecek gerci en altta ya da sistenin herhangi yerinde html kodlariyla table tag'i gorursek tablo oldugunun
+            gostergesi olacaktir

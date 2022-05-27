@@ -1,9 +1,11 @@
-driver.WimdowHandle();String tipinde hashcode dondurur. her kod calıstıgımda guncellemir
-bu code ile driver.SwitchTo().window(driver.WimdowHandle()); bu koda sahip sayfaya doner
 
-driver.SwitchTo().newWindow(Window xxx --->TAB,,,,,) boylelikle yeni sayfaya gecilmis olur ama yeni sayfa onceki sayfayı kopyalamaz islemleri basa
-almamzı gerekir
-yani yine yeni sayfa icinden driver.getUrl ile bir siteye gidip orada islem yapmamız gerekir
-eski siteye girmek icin onceden bir conteinr'a atadigimiz window handle degerini
-driver.SwitchTo.window(driver.WindowHandle()) ile driver.WindowHandle()= eski handle degerini yazark gidebikirz
-switchto sonrası close() diyerek de kapatabilirz windwos handle'i switchTo ile kullarak penereeler arasında gecis yapabikriz
+
+            driver.WimdowHandle();String tipinde hashcode dondurur. her kod calıstıgımda guncellemir
+            bu code ile driver.SwitchTo().window(driver.WimdowHandle()); bu koda sahip sayfaya doner
+
+            driver.SwitchTo().newWindow(Window xxx --->TAB,,,,,) boylelikle yeni sayfaya gecilmis olur ama yeni sayfa onceki sayfayı kopyalamaz islemleri basa
+            almamzı gerekir
+            yani yine yeni sayfa icinden driver.getUrl ile bir siteye gidip orada islem yapmamız gerekir
+            eski siteye girmek icin onceden bir conteinr'a atadigimiz window handle degerini
+            driver.SwitchTo.window(driver.WindowHandle()) ile driver.WindowHandle()= eski handle degerini yazark gidebikirz
+            switchto sonrası close() diyerek de kapatabilirz windwos handle'i switchTo ile kullarak pencereeler arasında gecis yapabikriz

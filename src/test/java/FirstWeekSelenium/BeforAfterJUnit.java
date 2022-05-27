@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class BeforAfterJUnit {
     WebDriver driver;
-    @Before
+    @Before  //her testten once calisir
     public void setUp (){
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
@@ -19,7 +19,8 @@ public class BeforAfterJUnit {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
     }
-    @After
+    @After // her testten sonra calisir
+    //topla calisan test sayısı 3Test+3+After+3Before= 9 defa
     public void gapat(){
         driver.close();
     }

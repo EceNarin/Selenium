@@ -1,15 +1,26 @@
 dropdown options mantıgıyla calısır
 oncelikle web element data type'i ile olusturdugumuz objeyi find elements ile locate ediyoruz
-WebElement dropDown=driver.findElemnts(xpath);
+
+                WebElement dropDown=driver.findElemnts(xpath);
+
+
 daha sonra Select class'indan olustrudugumuz objenin constructor parametresine "dropDown" web elementimi koyuyyoruz
-Select select=new Select(dropDown);
+
+                  Select select=new Select(dropDown);
+
+
 daha sonra select objesi + "." yapıca cıkan methdolara gore islem yapyıypruz
-select.getByVisibleText("Books");
-select.getByValue(""); html kodunda bulunan value degeri yazılır
-select.selectBygetIndex(3); bulunan toplam drop down optionslar icidden istedigimiz kritere uygun indexi yazariz secilir
+
+                                select.getByVisibleText("Books");
 
 
-select.getFirstSelectedOption()----->secilen son degeri dondurur
-select.selectgetoptions ---<list turunden dondurur
-list webelemnt class referansli bir nesen oldugu icin gettext() olarak yazmak daha dogru olacaktır
+                      select.getByValue(""); html kodunda bulunan value degeri yazılır
+
+                      select.selectBygetIndex(3); bulunan toplam drop down optionslar icidden istedigimiz kritere uygun indexi yazariz secilir
+
+                      select.getFirstSelectedOption()----->secilen son degeri dondurur
+
+                      select.selectgetoptions ---<list turunden dondurur
+
+list webelemnt class referansli bir nesne oldugu icin gettext() olarak yazmak daha dogru olacaktır
 

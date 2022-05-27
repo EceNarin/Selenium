@@ -22,7 +22,7 @@ public class GetScreenShootAmazon extends TestBase {
         driver.get("https://www.amazon.com");
         TakesScreenshot ts= (TakesScreenshot) driver;
         File file=new File("target/AmazonScreenShoot/shoots"+tarih+".jpeg");//goruntuyu kaydedecegimiz yer
-        File temp=ts.getScreenshotAs(OutputType.FILE);//aldigimiz ekran goruntusu
+        File temp=ts.getScreenshotAs(OutputType.FILE);//aldigimiz ekran goruntusu butun ekran
         FileUtils.copyFile(temp,file);
         //2- amazon anasayfaya gittiginizi test edin ve tum sayfanin goruntusunu kaydedin
         //Assert.assertTrue(driver.getCurrentUrl().equalsIgnoreCase("https://www.amazon.com"));

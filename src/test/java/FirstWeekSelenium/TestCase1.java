@@ -48,7 +48,7 @@ if(isVisible){
 }
 // 6. Enter name and email address
     driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[2]")).sendKeys("Ece");
-    driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[3]")).sendKeys("ecenarin1@hotmail.com");
+    driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[3]")).sendKeys("ecenarin70@hotmail.com");
 // 7. Click 'Signup' button
     driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/button")).click();
 // 8. Verify that 'ENTER ACCOUNT INFORMATION' is visible
@@ -61,7 +61,6 @@ if(isVisible){
 // 9. Fill details: Title, Name, Email, Password, Date of birth
     driver.findElement(By.xpath("//*[@id=\"id_gender2\"]")).click();
     driver.findElement(By.xpath("//*[@id=\"name\"]")).sendKeys("Ece");
-    //driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div/div/form/div[3]/label")).sendKeys("ecenarin@hotmail.com");
     driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("1234!");
     driver.findElement(By.xpath("//*[@id=\"days\"]")).sendKeys("23");
     driver.findElement(By.xpath("//*[@id=\"months\"]")).sendKeys("01");
@@ -103,13 +102,7 @@ if(isVisible){
 // 17. Click 'Delete Account' button
     driver.findElement(By.xpath("//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[5]/a")).click();
     driver.findElement(By.xpath("//*[@id=\"deleteModal\"]/div/div/div[2]/form/button")).click();
-// 18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
-    boolean deleteVisible=driver.findElement(By.xpath("")).isDisplayed();
-    if(deleteVisible){
-        System.out.println("Deleted is visible PASSED");
-    }else{
-        System.out.println("Deleted is visible FAILED");
-    }
-    driver.findElement(By.xpath("")).click();
+
+
 }
 }

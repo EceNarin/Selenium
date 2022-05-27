@@ -1,18 +1,18 @@
-html allert
-when u going to(click) a web site existing allerts
-an allerts handle if can hanle with locate  this is a html allert
-we cant handle all of allert with html
-we are making with java script
-3 types
-a simple allert // can locate submit but cant click after
-confirmation allert; this have  cancel and ok options for handle // two type function in here ok and cancel
-prompt allert send keys with words // taking us from keys words and we can click cancel and ok
-we cant locate javascript allerts
-but selenium have some options for it
-1- driver.get(url);
-and locate allertButton
-driver.SwitchTo().alert().accept();//just click for ok javascript allerts
-driver.SwitchTo().alert().dismiss();// cancel options
-driver.SwitchTo().alert().SendKeys("");//sendkeys
-check your file
-src/test/java/SecondWeekSelenium/Day2/AllertTask.java
+            html allert
+            when u going to(click) a web site existing allerts
+            an allerts handle if can hanle with locate  this is a html allert
+            we cant handle all of allert with html
+            we are making with java script
+            3 types
+            a simple allert // can locate submit but cant click after
+            confirmation allert; this have  cancel and ok options for handle // two type function in here ok and cancel
+            prompt allert send keys with words // taking us from keys words and we can click cancel and ok
+            we cant locate javascript allerts
+            but selenium have some options for it
+            1- driver.get(url);
+            and locate allertButton
+            driver.SwitchTo().alert().accept();//just click for ok javascript allerts
+            driver.SwitchTo().alert().dismiss();// cancel options
+            driver.SwitchTo().alert().SendKeys("");//sendkeys
+            check your file
+            src/test/java/SecondWeekSelenium/Day2/AllertTask.java
